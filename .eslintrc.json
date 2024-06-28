@@ -1,14 +1,12 @@
 {
-  "extends": ["next/core-web-vitals", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "endOfLine": "lf"
-      }
-    ],
-    "react/react-in-jsx-scope": "off"
-  }
+  "printWidth": 80,
+  "tabWidth": 4,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParents": "avoid",
+  "proseWrap": "always"
 }

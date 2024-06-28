@@ -1,4 +1,10 @@
 {
+  "json.schemas": [
+    {
+      "fileMatch": ["/.prettierrc", "/.prettierrc.json"],
+      "url": "./schemas/prettierrc.json"
+    }
+  ],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
